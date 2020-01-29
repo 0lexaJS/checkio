@@ -1,0 +1,5 @@
+https://js.checkio.org/en/mission/count-inversions/
+
+//JavaScript
+const countInversion = sequence =>
+    sequence.reduce((prev, value, index) => prev + sequence.slice(++index).filter(v => v <= value).length, 0);
