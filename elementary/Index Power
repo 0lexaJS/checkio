@@ -1,0 +1,4 @@
+https://js.checkio.org/ru/mission/index-power/
+
+//JavaScript
+const indexPower = (array, n) => array[n] ** n || -1;
