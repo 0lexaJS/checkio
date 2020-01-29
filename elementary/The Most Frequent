@@ -1,0 +1,5 @@
+https://js.checkio.org/en/mission/the-most-frequent/
+
+//JavaScript
+const mostFrequent = data =>
+    data.sort((a, b) => data.filter(value => value === a).length - data.filter(value => value === b).length).pop();
