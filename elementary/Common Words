@@ -1,4 +1,4 @@
-https://js.checkio.org/ru/mission/common-words/
+https://js.checkio.org/en/mission/common-words/
 
 //JavaScript
 const commonWords = (first, second) =>
