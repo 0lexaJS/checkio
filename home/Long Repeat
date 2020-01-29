@@ -1,0 +1,5 @@
+https://js.checkio.org/en/mission/long-repeat/
+
+//JavaScript
+const longRepeat = line =>
+    (line.match(/(.)\1*/g) || [[]]).sort((a, b) => b.length - a.length)[0].length;
