@@ -1,0 +1,4 @@
+https://js.checkio.org/en/mission/say-hi/
+
+//Javascript
+const sayHi = (name, age) => `Hi. My name is ${name} and I'm ${age} years old`;
