@@ -10,5 +10,4 @@ const VALUES = {
 };
 
 const worthOfWords = words =>
-    words.map(val => [val, [...val].map(val => VALUES[val]).reduce((pre, val) => pre + val)])
-        .sort((a, b) => b[1] - a[1])[0][0];
+    words.sort((a, b) => [...b].reduce((pre, val) => pre + VALUES[val], 0) - [...a].reduce((pre, val) => pre + VALUES[val], 0))[0];
